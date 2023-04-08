@@ -184,7 +184,7 @@ row4   1.0   1.0
 row5   1.0   1.0
 ```
 
-Now I want to select the first two columns, how to do it? Actually there are several ways. First, let's use the most common one, which is with the square brackets `[]`.
+Now I want to select the first three columns, how to do it? Actually there are several ways. First, let's use the most common one, which is with the square brackets `[]`.
 
 ```py
 print(df2[['col1', 'col2', 'col3']])
